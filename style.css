@@ -502,3 +502,22 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 }
 .avail:hover{background:var(--accent);color:var(--accent-ink)}
 .avail-dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+
+/* Hire me — the single strong CTA in the masthead */
+.hire{
+  display:inline-flex;align-items:center;gap:7px;text-decoration:none;
+  background:var(--accent);color:var(--accent-ink);
+  border:1px solid var(--accent);border-radius:2px;padding:9px 15px;
+  font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+  white-space:nowrap;transition:transform .16s,filter .16s;
+}
+.hire:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.eyebrow em{font-style:normal;color:var(--ink-3)}
+@media (max-width:760px){
+  .hire{padding:8px 12px}
+  .eyebrow{flex-wrap:wrap;row-gap:4px}
+}
+
+/* eyebrow now carries availability + role + location — keep it on one line */
+.eyebrow{flex-wrap:wrap;gap:7px;row-gap:2px}
+.eyebrow span{font-size:10px;letter-spacing:.09em}

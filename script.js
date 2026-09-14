@@ -400,7 +400,7 @@
   $("#contactCard").innerHTML = [
     { note: "Email",      label: p.email, href: "mailto:" + p.email },
     { note: "LinkedIn",   label: "linkedin.com/in/kaniaanish", href: p.linkedin },
-    { note: "Based in",   label: p.location, href: null }
+    { note: "Location",   label: p.location, href: null }
   ].map((r) => r.href
     ? `<a class="contact-row" href="${esc(r.href)}"${r.href.startsWith("http") ? ' target="_blank" rel="noopener"' : ""}>
          <span><span class="mono">${esc(r.note)}</span><br><strong>${esc(r.label)}</strong></span><span class="arrow">↗</span></a>`

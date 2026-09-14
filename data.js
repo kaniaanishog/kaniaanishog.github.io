@@ -20,7 +20,7 @@ const DATA = {
     role: "Technology & Operations Manager",
     firm: "Dot Logic India",
     employer: "APT Solutions",
-    location: "Vadodara, Gujarat, India",
+    location: "Philadelphia, PA",
     email: "kaniaanish64@gmail.com",
     linkedin: "https://linkedin.com/in/kaniaanish",
     resume: "",          // drop a PDF in the repo root and name it here
@@ -38,13 +38,14 @@ const DATA = {
 
   /* --- page copy — single voice, focused on the work -------------------- */
   copy: {
-    eyebrow: "Technology & Operations Manager · Vadodara, India",
+    eyebrow: "Philadelphia, PA",
     headline: ["Systems that hold", "on the day they matter."],
     lede: "Six years on a high-stakes digital examination platform where a bad deploy becomes somebody's exam day, and a multi-tenant ERP of my own alongside it. Database architecture, enterprise reporting, authentication, and the production support that keeps a twenty-day evaluation cycle running.",
     ctaPrimary:   { label: "See the systems", href: "#systems" },
     ctaSecondary: { label: "The incident", href: "#incident" },
     standfirst: "Technology & Operations Manager at APT Solutions. MS Data Science, Drexel University, 2025.",
     availability: "Open to opportunities",
+    hire: "Hire me",
     contactHeading: ["What I'm", "looking for."],
     contactBody: "Technology leadership and operations roles where the remit covers both the architecture and the running of it.",
     contactCta: "Start a conversation"
