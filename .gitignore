@@ -1,0 +1,9 @@
+# private working notes — never publish
+NOTES.private.md
+*.private.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
